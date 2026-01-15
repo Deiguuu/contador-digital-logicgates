@@ -1,70 +1,118 @@
-# ⚡ Electronic Counters in React
+# Electronic Counters in React
 
-Este proyecto implementa **contadores electrónicos** utilizando **React**, trasladando conceptos fundamentales de la electrónica digital a una aplicación web moderna e interactiva. El enfoque está en representar sistemas de conteo secuencial mediante componentes controlados por estado, manteniendo una lógica clara y una interfaz limpia.
+Electronic Counters in React es una herramienta web para el **diseño y análisis de contadores digitales síncronos** basada en Flip-Flops. La aplicación permite configurar un contador, generar su lógica de funcionamiento y visualizar sus distintas representaciones utilizadas en electrónica digital, todo desde una interfaz interactiva desarrollada con React.
 
-Se trata de un proyecto orientado tanto al aprendizaje como a la experimentación técnica.
-
----
-
-## 🚀 Demo en producción
-
-La aplicación se encuentra desplegada y accesible en el siguiente enlace:
-
-🔗 https://vercel.com/diegotercerodev-9412s-projects/v0-electronic-counters-in-react
+Este proyecto está orientado al aprendizaje, análisis y validación de sistemas secuenciales digitales.
 
 ---
 
-## 🧠 Descripción del proyecto
+## Acceso a la aplicación
 
-**Electronic Counters in React** surge como un ejercicio práctico para reforzar la relación entre la **ingeniería electrónica** y el **desarrollo frontend**.  
-Cada contador simula el comportamiento de un sistema digital real, donde los cambios de estado representan transiciones lógicas similares a las de un circuito electrónico.
+La versión en producción del proyecto está disponible en:
 
-El proyecto pone especial atención en:
-- Uso correcto y controlado del estado en React
-- Lógica de conteo predecible y bien estructurada
-- Componentes reutilizables y fáciles de mantener
-- Claridad visual e interacción intuitiva
+https://vercel.com/diegotercerodev-9412s-projects/v0-electronic-counters-in-react
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Descripción general
 
-- **React** – Construcción de la interfaz y manejo del estado
-- **JavaScript (ES6+)** – Lógica de la aplicación
-- **Vercel** – Despliegue y hosting continuo
+La aplicación funciona como un **Diseñador de Contadores Digitales**, permitiendo al usuario definir los parámetros principales de un contador síncrono y generar automáticamente su comportamiento lógico y estructural.
 
----
-
-## 🔄 Flujo de trabajo
-
-El desarrollo del proyecto sigue un flujo simple y eficiente:
-
-1. Se implementan mejoras o ajustes en la lógica y la interfaz
-2. El código se versiona en el repositorio
-3. La aplicación se despliega automáticamente en producción
-4. La versión pública refleja siempre el estado más reciente del proyecto
-
-Este proceso permite iterar rápidamente sin comprometer la estabilidad.
+A partir de la configuración ingresada, el sistema procesa la información y produce representaciones clave utilizadas en el diseño digital, facilitando la comprensión del funcionamiento interno del contador.
 
 ---
 
-## 🎯 Objetivos de aprendizaje
+## Configuración del contador
 
-- Aplicar conceptos de electrónica digital en un entorno de software
-- Profundizar en el manejo de `state` y renderizado en React
-- Entender la relación entre lógica secuencial y UI reactiva
-- Practicar flujos modernos de despliegue y control de versiones
+El usuario puede definir los siguientes parámetros antes de generar el contador:
+
+- Tipo de contador: Síncrono  
+- Elementos de memoria: Flip-Flops  
+- Número máximo de estados: hasta 8  
+- Rango de conteo: de 0 a 7  
+
+Una vez configurados estos valores, el sistema queda listo para generar el contador y sus módulos de análisis.
 
 ---
 
-## 👤 Autor
+## Generación del contador
 
-**Diego Tercero**  
+Al ejecutar la opción **Generar Contador**, la aplicación calcula automáticamente la lógica del sistema y habilita las siguientes secciones:
+
+---
+
+## Diagrama de Estados
+
+Representa gráficamente los estados del contador y las transiciones entre ellos.  
+Permite analizar el flujo secuencial del sistema y verificar visualmente el ciclo de conteo.
+
+---
+
+## Tablas de Estado
+
+Muestran la relación entre el estado presente y el estado siguiente del contador.  
+Estas tablas sirven como base para el análisis lógico y el diseño de las funciones de control.
+
+---
+
+## Tabla de Transición
+
+Describe de forma estructurada cómo evoluciona el contador entre estados en cada ciclo de reloj.  
+Es un elemento fundamental para el diseño y verificación de sistemas secuenciales.
+
+---
+
+## Mapas de Karnaugh
+
+Genera los mapas de Karnaugh correspondientes a cada Flip-Flop.  
+Estos mapas permiten simplificar las funciones booleanas necesarias para implementar el contador de manera eficiente.
+
+---
+
+## Circuitos de Compuertas
+
+A partir de las funciones lógicas simplificadas, la aplicación construye la representación del circuito a nivel de compuertas lógicas, mostrando cómo se implementa el contador en hardware digital.
+
+---
+
+## Diagrama Esquemático Completo
+
+Integra todos los elementos del diseño en un solo esquema:
+
+- Flip-Flops
+- Compuertas lógicas
+- Señales y conexiones
+
+Este diagrama ofrece una visión completa del sistema, desde la lógica de control hasta su estructura final.
+
+---
+
+## Tecnologías utilizadas
+
+- React  
+- JavaScript (ES6+)  
+- Vercel  
+
+---
+
+## Aplicaciones y utilidad
+
+- Apoyo didáctico en cursos de electrónica digital  
+- Diseño y análisis de contadores síncronos  
+- Comprensión de la relación entre tablas, mapas y circuitos  
+- Integración de conceptos de hardware con desarrollo frontend  
+
+---
+
+## Autor
+
+Diego Tercero  
 Estudiante de Ingeniería en Cibernética Electrónica  
 
 ---
 
-## 📄 Licencia
+## Licencia
 
-Proyecto desarrollado con fines educativos.  
-Uso libre para estudio, modificación y experimentación.
+Este proyecto se desarrolla con fines educativos.  
+Puede utilizarse, modificarse y adaptarse libremente para aprendizaje y experimentación.
+
