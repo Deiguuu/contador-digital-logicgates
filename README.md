@@ -1,5 +1,10 @@
 # Electronic Counters in React
 
+![React](https://img.shields.io/badge/React-18-blue?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-black?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+
 Electronic Counters in React es una herramienta web para el **diseño y análisis de contadores digitales síncronos** basada en Flip-Flops. La aplicación permite configurar un contador, generar su lógica de funcionamiento y visualizar sus distintas representaciones utilizadas en electrónica digital, todo desde una interfaz interactiva desarrollada con React.
 
 Este proyecto está orientado al aprendizaje, análisis y validación de sistemas secuenciales digitales.
@@ -18,89 +23,77 @@ https://vercel.com/diegotercerodev-9412s-projects/v0-electronic-counters-in-reac
 
 La aplicación funciona como un **Diseñador de Contadores Digitales**, permitiendo al usuario definir los parámetros principales de un contador síncrono y generar automáticamente su comportamiento lógico y estructural.
 
-A partir de la configuración ingresada, el sistema procesa la información y produce representaciones clave utilizadas en el diseño digital, facilitando la comprensión del funcionamiento interno del contador.
+A partir de la configuración ingresada, el sistema procesa la información y produce representaciones clave utilizadas en el diseño digital.
 
 ---
 
 ## Configuración del contador
 
-El usuario puede definir los siguientes parámetros antes de generar el contador:
+Parámetros disponibles:
 
 - Tipo de contador: Síncrono  
 - Elementos de memoria: Flip-Flops  
 - Número máximo de estados: hasta 8  
 - Rango de conteo: de 0 a 7  
 
-Una vez configurados estos valores, el sistema queda listo para generar el contador y sus módulos de análisis.
-
 ---
 
 ## Generación del contador
 
-Al ejecutar la opción **Generar Contador**, la aplicación calcula automáticamente la lógica del sistema y habilita las siguientes secciones:
+Al ejecutar **Generar Contador**, la aplicación habilita los siguientes módulos:
 
 ---
 
 ## Diagrama de Estados
 
-Representa gráficamente los estados del contador y las transiciones entre ellos.  
-Permite analizar el flujo secuencial del sistema y verificar visualmente el ciclo de conteo.
+Representación gráfica de los estados del contador y sus transiciones secuenciales.
 
 ---
 
 ## Tablas de Estado
 
-Muestran la relación entre el estado presente y el estado siguiente del contador.  
-Estas tablas sirven como base para el análisis lógico y el diseño de las funciones de control.
+Relación estructurada entre estado presente y estado siguiente.
 
 ---
 
 ## Tabla de Transición
 
-Describe de forma estructurada cómo evoluciona el contador entre estados en cada ciclo de reloj.  
-Es un elemento fundamental para el diseño y verificación de sistemas secuenciales.
+Descripción formal del comportamiento del contador en cada ciclo de reloj.
 
 ---
 
 ## Mapas de Karnaugh
 
-Genera los mapas de Karnaugh correspondientes a cada Flip-Flop.  
-Estos mapas permiten simplificar las funciones booleanas necesarias para implementar el contador de manera eficiente.
+Simplificación de funciones booleanas para cada Flip-Flop.
 
 ---
 
 ## Circuitos de Compuertas
 
-A partir de las funciones lógicas simplificadas, la aplicación construye la representación del circuito a nivel de compuertas lógicas, mostrando cómo se implementa el contador en hardware digital.
+Implementación lógica del contador a nivel de compuertas digitales.
 
 ---
 
 ## Diagrama Esquemático Completo
 
-Integra todos los elementos del diseño en un solo esquema:
-
-- Flip-Flops
-- Compuertas lógicas
-- Señales y conexiones
-
-Este diagrama ofrece una visión completa del sistema, desde la lógica de control hasta su estructura final.
+Integración total del sistema, incluyendo Flip-Flops, compuertas y señales.
 
 ---
 
 ## Tecnologías utilizadas
 
-- React  
-- JavaScript (ES6+)  
-- Vercel  
+- React
+- JavaScript (ES6+)
+- Vercel
 
 ---
 
 ## Aplicaciones y utilidad
 
-- Apoyo didáctico en cursos de electrónica digital  
-- Diseño y análisis de contadores síncronos  
-- Comprensión de la relación entre tablas, mapas y circuitos  
-- Integración de conceptos de hardware con desarrollo frontend  
+- Apoyo didáctico en electrónica digital
+- Diseño y análisis de contadores síncronos
+- Comprensión del diseño lógico secuencial
+- Integración de conceptos de hardware con frontend
 
 ---
 
@@ -110,6 +103,11 @@ Diego Tercero
 Estudiante de Ingeniería en Cibernética Electrónica  
 
 ---
+
+## Licencia
+
+Proyecto desarrollado con fines educativos.  
+Uso libre para aprendizaje y experimentación.
 
 ## Licencia
 
